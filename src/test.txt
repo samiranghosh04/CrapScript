@@ -1,20 +1,20 @@
-fn makeAdder (offset) {
+fn createOffsetAdder (initialOffset) {
 
-  fn add (x, y)  {
-    x + y + offset
+  fn addWithOffset (x, y)  {
+    x + y + initialOffset
   }
 
-  add
+  addWithOffset
 }
 
-const adder = makeAdder(1);
+const adderWithModularOffset = createOffsetAdder(1);
 
-print(adder(10, 5))
+print(adderWithModularOffset(10, 5))
 
-let foo = 5 * 2;
-foo = foo / 4 + 5
+let var = 5 * 2;
+var = var / 4 + 5
 
-print(foo, 45)
+print(var, 46)
 
 const timeNow = time();
 print(timeNow)
