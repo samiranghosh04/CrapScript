@@ -1,8 +1,8 @@
-# CrapScript - A Minimalistic  Interpreted Esoteric Programming Language
+# ToyScript - A Minimalistic  Interpreted Esoteric Programming Language
 
 ## Introduction
 
-Welcome to CrapScript, a distinctive, minimalistic, interpreted esoteric programming language, written in TypeScript and Deno, and designed to provide a unique coding experience. This language embraces unconventional syntax and features while incorporating familiar elements such as `let` and `const` declarations, functions, and versatile binary expressions. As of now the language isn't turing complete yet but I am working on it.
+Welcome to ToyScript, a distinctive, minimalistic, interpreted esoteric programming language, written in TypeScript and Deno, and designed to provide a unique coding experience. This language embraces unconventional syntax and features while incorporating familiar elements such as `let` and `const` declarations, functions, and versatile binary expressions. As of now the language isn't turing complete yet but I am working on it.
 
 ## Features
 
@@ -68,7 +68,7 @@ Harness the power of binary expressions for arithmetic operations, including add
 
 ## Usage
 
-To run a program written in CrapScript, simply modify the `test.txt` file and save it and then use the following command to run the `main.ts` file:
+To run a program written in ToyScript, simply modify the `test.txt` file and save it and then use the following command to run the `main.ts` file:
 
 
     deno run -A main.ts
